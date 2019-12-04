@@ -5,8 +5,6 @@ pipeline {
             steps {
                 script{
                     println "Build" 
-                    def result =  TwoNumberAdd 3, 5
-                    println result
                 }
             }
         }
